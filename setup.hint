@@ -1,0 +1,4 @@
+category: Devel KDE
+requires: cygwin git qt3
+sdesc: "Qt git repository viewer"
+ldesc: "Qt git repository viewer"

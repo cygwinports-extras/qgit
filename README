@@ -3,22 +3,20 @@ qgit
 Qt git repository viewer
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  qt3-3.3.8-4
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libQtCore4-4.5.3-2
+  libQtGui4-4.5.3-2
+  libstdc++6-4.3.4-3
   git
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
-  autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
-  sed-4.1.5-2
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  make-3.81-2
 
 Canonical website:
   http://digilander.libero.it/mcostalba/
@@ -29,44 +27,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack qgit-1.5.8-X-src.tar.bz2
+  unpack qgit-2.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./qgit-1.5.8-X.cygport all
+  cygport ./qgit-2.3-X.cygport all
 
 This will create:
-  /usr/src/qgit-1.5.8-X-src.tar.bz2
-  /usr/src/qgit-1.5.8-X.tar.bz2
+  /usr/src/qgit-2.3-X-src.tar.bz2
+  /usr/src/qgit-2.3-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/qgit.exe
-  /usr/share/doc/Cygwin/qgit-1.5.8.README
-  /usr/share/doc/qgit-1.5.8/COPYING
-  /usr/share/doc/qgit-1.5.8/ChangeLog
-  /usr/share/doc/qgit-1.5.8/README
-
-------------------
-
 Port Notes:
 
------ version 1.5.8-1 -----
-Version bump.
-
------ version 1.5.7-1 -----
-Version bump.
-
------ version 1.5.6-1 -----
-Version bump.
-
------ version 1.5.5-1 -----
-Version bump.
-
------ version 1.5.4-1 -----
-Initial release for Cygwin.
+----- version 2.3-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

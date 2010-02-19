@@ -1,4 +1,4 @@
 category: Devel KDE
-requires: git qt3
+requires: git libgcc1 libQtCore4 libQtGui4 libstdc++6
 sdesc: "Qt git repository viewer"
 ldesc: "Qt git repository viewer"

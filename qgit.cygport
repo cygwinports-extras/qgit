@@ -1,0 +1,19 @@
+inherit qt4-qmake
+
+NAME="qgit"
+VERSION=2.5
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Qt git repository viewer"
+DESCRIPTION="Qt git repository viewer"
+REQUIRES="git"
+HOMEPAGE="http://libre.tibirna.org/projects/qgit"
+SRC_URI="http://libre.tibirna.org/attachments/download/9/${NAME}-${VERSION}.tar.gz"
+SRC_DIR="redivivus"  # don't ask
+
+src_install() {
+	cd ${B}
+	dobin bin/qgit.exe
+	doicon ${S}/src/resources/qgit.png
+	make_desktop_entry qgit QGit qgit "Development;RevisionControl;Qt"
+}
